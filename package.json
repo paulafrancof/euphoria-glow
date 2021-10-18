@@ -1,0 +1,19 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "instalacion sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass --watch --include-path scss src/sass/style.scss src/styles/style.css",
+    "build-css": "node-sass --include-path scss src/sass/style.scss src/styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

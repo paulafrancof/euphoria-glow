@@ -1,0 +1,43 @@
+@import "./part/colors";
+@import "./part/variables.scss";
+@import "./part/layout.scss";
+@import "./part/home.scss";
+@import "./part/logo.scss";
+@import "./part/responsive.scss";
+@import "./part/text.scss";
+*
+ {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+/*ANIMATION*/
+.text-focus-in {
+	-webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+	        animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+}
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }  

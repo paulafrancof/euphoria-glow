@@ -1,0 +1,108 @@
+@import "./colors.scss";
+@import "./variables.scss";
+@import "./responsive.scss";
+
+/*NEW PRODUCTOS*/
+.newProducts {
+    background-color: $floral;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    &__title {
+        text-align: $align;
+        margin: 0px;
+        padding: 20px;
+    }
+    &__tab {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        img {
+            width: 260px;
+            height: 300px;
+        }
+    }
+}
+.center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+/*CAROUSEL IMG*/
+.carousel .carousel-item {
+    height: 300px;
+    @include tablet {
+        height: 400px;
+    }
+    @include desktop {
+        height: 500px;
+    }
+  }
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      height: 300px;
+      @include tablet {
+          height: 400px;
+      }
+      @include desktop {
+          height: 500px;
+      }
+  }
+/*PARTNERS & CRUELTY*/
+  .partners {
+    &__title {
+    text-transform: capitalize;
+    padding: 20px;
+    letter-spacing: 1px;
+    color: #4D4D4D;
+    text-align: $align;
+    }
+}
+
+.brandPartners {
+    text-align: $align;
+    &__img {
+        width: 150px;
+        margin: 20px;
+        @include tablet {
+            width: 180px;
+            margin: 40px;
+        }
+        @include desktop {
+            width: 200px;
+            margin: 40px;
+        }
+    }
+}
+
+.crueltyFree {
+    text-align: $align;
+    &__image {
+        width: 160px;
+        margin: 20px;
+        @include tablet {
+            width: 180px;
+            margin: 20px;
+        }
+        @include desktop {
+            width: 200px;
+            margin: 20px;
+        }
+    }
+    &__text {
+        font-family: $font-poppins;
+    }
+} 
+
+/*
+.bag {
+    background: #eef;
+    padding: 6px 10px;
+    border-radius: 99%;
+    cursor: pointer;
+}
+*/

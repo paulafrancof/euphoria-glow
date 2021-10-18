@@ -1,0 +1,88 @@
+@import "./colors.scss";
+@import "./logo.scss";
+@import "./variables.scss";
+@import "./responsive.scss";
+@import "./home.scss";
+
+/*STYLE TEXT - MARGIN*/
+.marginSections {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 20px 20px;
+    @include desktop {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin: 40px 200px;
+    }
+}
+.marginText {
+    margin: 10px 2px;
+}
+.weigthText {
+    font-weight: 10;
+}
+.sizeTitle{
+    font-size: 1rem;
+}
+
+.typographyPoppins {
+    font-family: $font-poppins;
+}
+.typographyQuestrial {
+    font-family: $font-questrial;
+}
+
+/*INFORMATION DIRECT*/ 
+.directStyle {
+    &__text {
+        font-family: $font-poppins;
+        font-size: 1rem;
+        margin: 0px;
+    }
+}
+
+/*IMAGENES*/
+.imagen {
+    width: 200px;
+    height: 230px
+}
+.img {
+    width: 400px;
+    height: 150px;
+    @include desktop {
+        width: 1094px;
+        height: 200px;
+    }
+}
+
+/*CONTACT*/
+.marginContact {
+    margin: 10px 20px
+} 
+.marginForm {
+    margin: 15px 20px;
+}
+.flexMain {
+    @include tablet {
+        display: inline;
+        flex-direction: row;
+        justify-content: center;
+    }
+    @include desktop {
+        display: flex;
+    }
+}
+/*PRODUCTS*/
+.gridProduct {
+    @include desktop {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+    }
+}
+.fontSizeProducts {
+    font-size: 1rem;
+}
+.fontSizePrice {
+        font-size: 0.9rem;
+}

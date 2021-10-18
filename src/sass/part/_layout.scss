@@ -1,0 +1,74 @@
+@import "./colors.scss";
+@import "./logo.scss";
+@import "./variables.scss";
+@import "./responsive.scss";
+@import "./home.scss";
+
+/*NOTICE*/
+.notice {
+    background-color: #EEEEFF;
+    &__message {
+        font-size: 0.6rem;
+        text-align: $align;
+        padding: 5px;
+    }
+}
+/*LIST NAV*/
+.list {
+    color: $black;
+    text-decoration: $text-none;
+}
+.line {
+    border-bottom: 1px solid $gray2;
+} 
+
+/*NAV TEXT*/
+.title {
+    margin: 4px;
+        &__text {
+            font-family: $font-questrial;
+            text-transform: capitalize;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+            color: #000000;
+            text-align: center;
+            margin-top: 50px;
+    }
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #FFF8ED;
+    margin-top: 20px;
+    padding: 15px;
+        &__flex {
+             display: inline;
+             @include tablet {
+                 display: flex;
+             }
+            }
+         &__logo {
+            margin: 15px;
+         }
+}
+.footerList {
+    list-style: none;
+        &__list {
+            margin:15px 10px;
+            height: 12px;
+            }
+            &__style {
+                color:black;
+                text-decoration: none;
+                border-bottom: 1px solid black;
+            }
+}
+.copyright {
+    &__text {
+        font-size: 0.7rem;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+

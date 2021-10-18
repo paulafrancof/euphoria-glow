@@ -1,0 +1,22 @@
+@import "./colors.scss";
+@import "./variables.scss";
+
+.logo {
+    &__title {
+        color: $black;
+        font-family: $font-questrial;
+        font-size: 2.8rem;
+        margin: 10px auto;
+        height: 26px;
+        text-align: $align;
+        
+    }
+    &__subtitle {
+        font-family: $font-questrial;
+        color: $gray;
+        font-size: 1.6rem;
+        text-decoration: overline;
+        margin: 16px;
+        text-align: $align;
+    } 
+}
