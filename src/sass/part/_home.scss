@@ -6,23 +6,36 @@
 .newProducts {
     background-color: $floral;
     padding-top: 1px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     &__title {
         text-align: $align;
         margin: 0px;
-        padding: 20px;
+        padding: 15px;
     }
     &__tab {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
-
+    }
         img {
-            width: 260px;
-            height: 300px;
+            width: 243px;
+            height: 316px;
+                @include desktop {
+                    width: 245px;
+                    height: 343px;
+            }
         }
     }
+.newProductsTitle {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+}
+.newProductsDescription {
+    font-size: 14px;
+    padding: 1px;
+    text-align: $align;
 }
 .center {
     margin: auto;
@@ -58,7 +71,7 @@
     text-transform: capitalize;
     padding: 20px;
     letter-spacing: 1px;
-    color: #4D4D4D;
+    color: #323062;
     text-align: $align;
     }
 }
