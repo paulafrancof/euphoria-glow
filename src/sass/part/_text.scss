@@ -43,8 +43,12 @@
 
 /*IMAGENES*/
 .imagen {
-    width: 200px;
-    height: 230px
+    width: 243px;
+    height: 316px;
+    @include desktop {
+        width: 245px;
+        height: 343px;
+    }
 }
 .img {
     width: 400px;
@@ -81,8 +85,15 @@
     }
 }
 .fontSizeProducts {
-    font-size: 1rem;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
 }
 .fontSizePrice {
-        font-size: 0.9rem;
+    font-size: 14px;
+    padding: 1px;
+    text-align: center;
+}
+.marginProduct {
+    margin: 40px 70px;
 }

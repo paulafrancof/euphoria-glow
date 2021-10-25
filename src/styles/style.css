@@ -28,7 +28,7 @@
   .newProducts__title {
     text-align: center;
     margin: 0px;
-    padding: 15px; }
+    padding: 26px; }
   .newProducts__tab {
     display: flex;
     flex-direction: row;
@@ -193,7 +193,7 @@
   .newProducts__title {
     text-align: center;
     margin: 0px;
-    padding: 15px; }
+    padding: 26px; }
   .newProducts__tab {
     display: flex;
     flex-direction: row;
@@ -340,7 +340,7 @@
   .newProducts__title {
     text-align: center;
     margin: 0px;
-    padding: 15px; }
+    padding: 26px; }
   .newProducts__tab {
     display: flex;
     flex-direction: row;
@@ -472,8 +472,12 @@
 
 /*IMAGENES*/
 .imagen {
-  width: 200px;
-  height: 230px; }
+  width: 243px;
+  height: 316px; }
+  @media screen and (min-width: 1024px) {
+    .imagen {
+      width: 245px;
+      height: 343px; } }
 
 .img {
   width: 400px;
@@ -508,10 +512,17 @@
     grid-template-rows: auto; } }
 
 .fontSizeProducts {
-  font-size: 1rem; }
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500; }
 
 .fontSizePrice {
-  font-size: 0.9rem; }
+  font-size: 14px;
+  padding: 1px;
+  text-align: center; }
+
+.marginProduct {
+  margin: 40px 70px; }
 
 * {
   margin: 0;
