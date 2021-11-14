@@ -480,7 +480,7 @@
       height: 343px; } }
 
 .img {
-  width: 400px;
+  width: 350px;
   height: 150px; }
   @media screen and (min-width: 1024px) {
     .img {
@@ -522,7 +522,7 @@
   text-align: center; }
 
 .marginProduct {
-  margin: 40px 70px; }
+  margin: 40px 50px; }
 
 * {
   margin: 0;
