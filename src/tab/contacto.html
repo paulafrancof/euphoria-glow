@@ -63,22 +63,24 @@
                 dentro de 1 a 2 días hábiles. </p>
         </div>
         <div class="flexMain center">
-            <img class="imagen marginContact" src="../img/form.webp">
+            <img class="imgContact marginContact" src="../img/form.webp">
             <form class="marginContact" action="" method=GET>
-                <div class="marginForm">
-                    <label for="name">NOMBRE</label>
-                    <input type="text" name="name" id="name">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name">
                 </div>
-                <div class="marginForm">
-                    <label for="mail">E-MAIL</label>
-                    <input type="email" name="mail" id="mail">
+                <div class="mb-3">
+                    <label for="mail" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="mail">
                 </div>
-                <div class="marginForm">
-                    <label for="descriptor">Descripción</label>
-                    <input type="descritor" name="mail" id="descriptor">
+                <div class="mb-3">
+                    <label for="descriptor" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="descriptor" rows="3"></textarea>
                 </div>
-                <div class="marginForm">
-                    <select name="descriptor" id="descriptor">
+                <div>
+                    <label for="select" class="form-label"></label>
+                    <select class="form-select" name="select" id="select">
+                        <option selected>Seleccione</option>
                         <option value="delivery">Problemas con mi despacho</option>
                         <option value="change">Realizar cambio</option>
                         <option value="suggestion">Sugerencias</option>
@@ -86,8 +88,8 @@
                     </select>
                 </div>
                 <div class="marginForm">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Resetear">
+                    <input class="btn btn-outline-secondary" type="submit" value="Enviar">
+                    <input class="btn btn-outline-secondary" type="reset" value="Resetear">
                 </div>
             </form>
         </div>

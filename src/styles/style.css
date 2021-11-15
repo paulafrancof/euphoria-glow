@@ -471,6 +471,14 @@
   margin: 0px; }
 
 /*IMAGENES*/
+.imgContact {
+  width: 243px;
+  height: 316px; }
+  @media screen and (min-width: 1024px) {
+    .imgContact {
+      width: 245px;
+      height: 366px; } }
+
 .imagen {
   width: 243px;
   height: 316px; }

@@ -42,6 +42,14 @@
 }
 
 /*IMAGENES*/
+.imgContact {
+    width: 243px;
+    height: 316px;
+    @include desktop {
+        width: 245px;
+        height: 366px;
+    }
+}  
 .imagen {
     width: 243px;
     height: 316px;
