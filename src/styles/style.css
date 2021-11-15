@@ -532,6 +532,16 @@
 .marginProduct {
   margin: 40px 50px; }
 
+.textMarcas {
+  margin: 8px; }
+
+/*BOTON PRODUCTOS*/
+.buttonShop {
+  margin: 15px; }
+  @media screen and (min-width: 1024px) {
+    .buttonShop {
+      margin: 0px; } }
+
 * {
   margin: 0;
   padding: 0;

@@ -105,3 +105,14 @@
 .marginProduct {
     margin: 40px 50px;
 }
+.textMarcas {
+    margin: 8px;
+}
+
+/*BOTON PRODUCTOS*/
+.buttonShop {
+    margin: 15px;
+    @include desktop {
+        margin: 0px;
+    }
+}
